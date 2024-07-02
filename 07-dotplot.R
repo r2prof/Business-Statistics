@@ -1,0 +1,10 @@
+data <- read.csv(file.choose())
+
+data <- c(12, 15, 20, 22, 14, 14, 15, 27, 21, 18,
+          19, 18, 22, 33, 16, 18, 17, 23, 28, 13)
+View(data)
+typeof(data)
+
+new_data <- unlist(data)
+typeof(new_data)
+dotchart(data)
